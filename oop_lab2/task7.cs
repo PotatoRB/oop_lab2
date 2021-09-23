@@ -12,9 +12,15 @@ namespace oop_lab2
         {
             for (; ; )
             {
-                Console.WriteLine("\n1 - Задание 1\n2 - Задание 2\n3 - Задание 3\n4 - Задание 4\n5 - Задание 5\n6 - Задание 6\n");
-                int i = int.Parse(Console.ReadLine());
-                switch (i)
+                Console.WriteLine("\n1 - Задание 1\n2 - Задание 2\n3 - Задание 3\n4 - Задание 4\n5 - Задание 5\n6 - Задание 6\nВведите вариант\n");
+                string q = Console.ReadLine();
+                int i = 0;
+                if (q == "1" | q == "2" | q == "3" | q == "4" | q == "5" | q == "6")
+                {
+                    i = Convert.ToInt32(q);
+                }
+
+                switch(i)
                 {
                     case 1:
                         Console.WriteLine("\nЗадание 1");
