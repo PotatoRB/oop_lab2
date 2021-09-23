@@ -13,21 +13,21 @@
 //            Ch();
 //            Uch();
 //            Console.ReadKey();
-//        }
-//        static void Ch()
-//        {
-//            checked 
+//            void Ch()
 //            {
-//                int a = 2147483647;
-//                Console.WriteLine(a);
+//                checked
+//                {
+//                    int a = 2147483647;
+//                    Console.WriteLine(a);
+//                }
 //            }
-//        }
-//        static void Uch()
-//        {
-//            unchecked
+//            void Uch()
 //            {
-//                int a = 2147483647;
-//                Console.WriteLine(a);
+//                unchecked
+//                {
+//                    int a = 2147483647;
+//                    Console.WriteLine(a);
+//                }
 //            }
 //        }
 //    }

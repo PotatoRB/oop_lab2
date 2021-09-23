@@ -10,10 +10,10 @@
 //    {
 //        static void Main()
 //        {
-//            int[,] arrint = { {1,2,3,4 }, {5,6,7,8 } };
-//            for(int i=0; i<arrint.GetLength(0); i++)
+//            int[,] arrint = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 } };
+//            for (int i = 0; i < arrint.GetLength(0); i++)
 //            {
-//                for (int j=0; j<arrint.GetLength(1); j++)
+//                for (int j = 0; j < arrint.GetLength(1); j++)
 //                {
 //                    Console.Write(arrint[i, j]);
 //                }
@@ -22,7 +22,7 @@
 //            Console.WriteLine();
 
 //            string[] arrstr = { "first", "second", "third" };
-//            foreach(string a in arrstr)
+//            foreach (string a in arrstr)
 //            {
 //                Console.WriteLine(a);
 //            }
@@ -43,7 +43,7 @@
 //            {
 //                for (int w = 0; w < arr1[q].GetLength(0); w++)
 //                {
-//                    arr1[q][w]=Convert.ToInt32(Console.ReadLine());
+//                    arr1[q][w] = Convert.ToInt32(Console.ReadLine());
 //                }
 //                Console.WriteLine();
 //            }
@@ -58,10 +58,10 @@
 //            }
 //            Console.WriteLine();
 
-//            var arr2 = new[] {1,2,3};
-//            foreach(int x in arr2)
+//            var arr2 = new[] { 1, 2, 3 };
+//            foreach (int x in arr2)
 //            {
-//                Console.Write(x+" ");
+//                Console.Write(x + " ");
 //            }
 
 //            var str = "hello";
